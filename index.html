@@ -11,10 +11,10 @@
       <a href="#home" class="logo">TechJournal</a>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#articles-section">Articles</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contacts-section">Contacts</a></li>
+          <li><a href="#home" class="header-nav">Home</a></li>
+          <li><a href="#articles-section" class="header-nav">Articles</a></li>
+          <li><a href="#about-section" class="header-nav">About</a></li>
+          <li><a href="#contacts-section" class="header-nav">Contacts</a></li>
         </ul>
       </nav>
     </header>
@@ -107,6 +107,24 @@
             <p>Responsive layouts, modern CSS and better user experiences.</p>
           </li>
         </ul>
+      </section>
+      <section id="email-section">
+        <h2>Stay in the loop</h2>
+        <p>
+          Get practical articles about web development, AI and modern software
+          engineering delivered directly to your inbox.
+        </p>
+        <form>
+          <label for="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          />
+          <button type="submit" class="button-subscribe">Subscribe</button>
+        </form>
       </section>
     </main>
     <footer>
