@@ -7,153 +7,189 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header id="home">
-      <a href="#home" class="logo">TechJournal</a>
-      <nav>
-        <ul>
-          <li><a href="#home" class="header-nav">Home</a></li>
-          <li><a href="#articles-section" class="header-nav">Articles</a></li>
-          <li><a href="#about-section" class="header-nav">About</a></li>
-          <li><a href="#contacts-section" class="header-nav">Contacts</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container">
+        <div class="header-container">
+          <a href="#home" class="logo">TechJournal</a>
+          <nav>
+            <ul>
+              <li><a href="#home" class="header-nav">Home</a></li>
+              <li>
+                <a href="#articles-section" class="header-nav">Articles</a>
+              </li>
+              <li><a href="#about-section" class="header-nav">About</a></li>
+              <li>
+                <a href="#contacts-section" class="header-nav">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-      <section id="hero-section">
-        <h1>Ideas shaping the future of technology</h1>
-        <p>
-          Explore practical insights about web development, artificial
-          intelligence, software engineering, and the technologies changing the
-          way we build the digital world.
-        </p>
-        <a href="#articles-section">Explore articles</a>
+      <section id="home" class="hero-section">
+        <div class="container">
+          <h1>Ideas shaping the future of technology</h1>
+          <p class="hero-description">
+            Explore practical insights about web development, artificial
+            intelligence, software engineering, and the technologies changing
+            the way we build the digital world.
+          </p>
+          <a href="#articles-section" class="button-explore"
+            >Explore articles</a
+          >
+        </div>
       </section>
       <section id="articles-section">
-        <h2>Latest Articles</h2>
-        <ul class="articles-list">
-          <li class="articles-card">
-            <article>
-              <div class="articles-image-wrapper">
-                <span class="articles-featured">FEATURED</span>
-                <img
-                  class="articles-img"
-                  src="./images/Зображення ChatGPT 11 жовт. 2026 р., 21_10_42-1.png"
-                  alt="Developer working on a modern web application"
-                />
-              </div>
-              <p class="articles-category">Web Development</p>
-              <h3>Why JavaScript Still Powers the Modern Web</h3>
-              <p class="articles-description">
-                From simple browser scripts to full-stack applications,
-                JavaScript has evolved into one of the most important
-                technologies in modern software development.
-              </p>
-              <time datetime="2026-10-07">October 7, 2026</time>
-              <a href="#">Read article</a>
-            </article>
-          </li>
-          <li class="articles-card">
-            <article>
-              <div class="articles-image-wrapper">
-                <span class="articles-featured">FEATURED</span>
-                <img
-                  class="articles-img"
-                  src="./images/Зображення ChatGPT 11 жовт. 2026 р., 21_10_46-3.png"
-                  alt="Developer working with an AI coding assistant"
-                />
-              </div>
-              <p class="articles-category">Artificial Intelligence</p>
-              <h3>How AI Is Changing the Way Developers Write Code</h3>
-              <p class="articles-description">
-                AI coding tools are becoming part of everyday development
-                workflows. But the biggest advantage comes when developers
-                understand the code instead of simply generating it.
-              </p>
-              <time datetime="2026-10-05">October 5, 2026</time>
-              <a href="#">Read article</a>
-            </article>
-          </li>
-          <li class="articles-card">
-            <article>
-              <div class="articles-image-wrapper">
-                <span class="articles-featured">FEATURED</span>
-                <img
-                  class="articles-img"
-                  src="./images/Зображення ChatGPT 11 жовт. 2026 р., 21_10_44-2.png"
-                  alt="Developer building a React and Next.js application"
-                />
-              </div>
-              <p class="articles-category">Frontend</p>
-              <h3>React, Next.js and the Evolution of Frontend Development</h3>
-              <p class="articles-description">
-                Modern frontend applications are moving far beyond static pages.
-                Server rendering, reusable components, and modern routing are
-                changing how web applications are built.
-              </p>
-              <time datetime="2026-10-02">October 2, 2026</time>
-              <a href="#">Read article</a>
-            </article>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Latest Articles</h2>
+          <ul class="articles-list">
+            <li class="articles-card">
+              <article>
+                <div class="articles-image-wrapper">
+                  <span class="articles-featured">FEATURED</span>
+                  <img
+                    class="articles-img"
+                    src="./images/web-development.png"
+                    alt="Developer working on a modern web application"
+                  />
+                </div>
+                <p class="articles-category">Web Development</p>
+                <h3>Why JavaScript Still Powers the Modern Web</h3>
+                <p class="articles-description">
+                  From simple browser scripts to full-stack applications,
+                  JavaScript has evolved into one of the most important
+                  technologies in modern software development.
+                </p>
+                <time datetime="2026-10-07">October 7, 2026</time>
+                <a href="#" class="articles-link">Read article</a>
+              </article>
+            </li>
+            <li class="articles-card">
+              <article>
+                <div class="articles-image-wrapper">
+                  <span class="articles-featured">FEATURED</span>
+                  <img
+                    class="articles-img"
+                    src="./images/artificial-intelligence.png"
+                    alt="Developer working with an AI coding assistant"
+                  />
+                </div>
+                <p class="articles-category">Artificial Intelligence</p>
+                <h3>How AI Is Changing the Way Developers Write Code</h3>
+                <p class="articles-description">
+                  AI coding tools are becoming part of everyday development
+                  workflows. But the biggest advantage comes when developers
+                  understand the code instead of simply generating it.
+                </p>
+                <time datetime="2026-10-05">October 5, 2026</time>
+                <a href="#" class="articles-link">Read article</a>
+              </article>
+            </li>
+            <li class="articles-card">
+              <article>
+                <div class="articles-image-wrapper">
+                  <span class="articles-featured">FEATURED</span>
+                  <img
+                    class="articles-img"
+                    src="./images/frontend.png"
+                    alt="Developer building a React and Next.js application"
+                  />
+                </div>
+                <p class="articles-category">Frontend</p>
+                <h3>
+                  React, Next.js and the Evolution of Frontend Development
+                </h3>
+                <p class="articles-description">
+                  Modern frontend applications are moving far beyond static
+                  pages. Server rendering, reusable components, and modern
+                  routing are changing how web applications are built.
+                </p>
+                <time datetime="2026-10-02">October 2, 2026</time>
+                <a href="#" class="articles-link">Read article</a>
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="popular-topics">
-        <h2>Popular Topics</h2>
-        <ul>
-          <li>
-            <h3>JavaScript</h3>
-            <p>
-              Modern JavaScript patterns, browser APIs and full-stack
-              development.
-            </p>
-          </li>
-          <li>
-            <h3>Artificial Intelligence</h3>
-            <p>
-              AI tools, machine learning and the future of software development.
-            </p>
-          </li>
-          <li>
-            <h3>React</h3>
-            <p>
-              Components, state management and building modern user interfaces.
-            </p>
-          </li>
-          <li>
-            <h3>Next.js</h3>
-            <p>Server rendering, routing and full-stack React applications.</p>
-          </li>
-          <li>
-            <h3>Node.js</h3>
-            <p>Backend development, APIs and JavaScript on the server.</p>
-          </li>
-          <li>
-            <h3>CSS & Design</h3>
-            <p>Responsive layouts, modern CSS and better user experiences.</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Popular Topics</h2>
+          <ul class="popular-topics-list">
+            <li class="popular-topics-card">
+              <h3>JavaScript</h3>
+              <p class="popular-topics-description">
+                Modern JavaScript patterns, browser APIs and full-stack
+                development.
+              </p>
+            </li>
+            <li class="popular-topics-card">
+              <h3>Artificial Intelligence</h3>
+              <p class="popular-topics-description">
+                AI tools, machine learning and the future of software
+                development.
+              </p>
+            </li>
+            <li class="popular-topics-card">
+              <h3>React</h3>
+              <p class="popular-topics-description">
+                Components, state management and building modern user
+                interfaces.
+              </p>
+            </li>
+            <li class="popular-topics-card">
+              <h3>Next.js</h3>
+              <p class="popular-topics-description">
+                Server rendering, routing and full-stack React applications.
+              </p>
+            </li>
+            <li class="popular-topics-card">
+              <h3>Node.js</h3>
+              <p class="popular-topics-description">
+                Backend development, APIs and JavaScript on the server.
+              </p>
+            </li>
+            <li class="popular-topics-card">
+              <h3>CSS & Design</h3>
+              <p class="popular-topics-description">
+                Responsive layouts, modern CSS and better user experiences.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="email-section">
-        <h2>Stay in the loop</h2>
-        <p>
-          Get practical articles about web development, AI and modern software
-          engineering delivered directly to your inbox.
-        </p>
-        <form>
-          <label for="email">Email</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            required
-            placeholder="Enter your email"
-          />
-          <button type="submit" class="button-subscribe">Subscribe</button>
-        </form>
+        <div class="container">
+          <div class="email-container">
+            <h2 class="email-h2">Stay in the loop</h2>
+            <p class="email-description">
+              Get practical articles about web development, AI and modern
+              software engineering delivered directly to your inbox.
+            </p>
+            <form class="email-form">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="email-input"
+                required
+                placeholder="Enter your email"
+                label="Email input area"
+              />
+              <button type="submit" class="button-subscribe">Subscribe</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
-      <a href="#home" class="logo">TechJournal</a>
-      <p>© 2026 TechJournal. Built for curious developers.</p>
+      <div class="container">
+        <div class="footer-container">
+          <a href="#home" class="logo">TechJournal</a>
+          <p>© 2026 TechJournal. Built for curious developers.</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
